@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Samarkan';
+    src: url("media/SamarkanNormal-Gg5D.ttf") format('truetype');
+}
+
+.hometitle {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+#title {
+    font-family: 'Samarkan';
+    font-size: 90px;
+}
+
+.imgcont {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;
+    height: 100vh;*/
+    margin: auto;
+    width: 50%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.navbar-icon {
+    margin-right: 10px;
+}
+
+.navbar-icon img {
+    width: 90px;
+    /* main logo */
+}
+
+.navbar-options {
+    margin-left: auto;
+    list-style-type: none;
+}
+
+.navbar-options li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar-options li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.left-part {
+    flex: 1;
+}
+
+.right-part {
+    margin-left: 20px;
+}
